@@ -2,26 +2,18 @@
 module.exports = {
   mount: {
    public: '/',
-   src: '/dist',
+   src: '/_dist_',
   },
   plugins: [
-    '@snowpack/plugin-svelte'
+    '@snowpack/plugin-svelte',
+    '@snowpack/plugin-dotenv',
+    '@snowpack/plugin-postcss'
   ],
-  routes: [
-    /* Enable an SPA Fallback in development: */
-    // {"match": "routes", "src": ".*", "dest": "/index.html"},
-  ],
-  optimize: {
-    /* Example: Bundle your final build: */
-    // "bundle": true,
-  },
   packageOptions: {
-    /* ... */
+    polyfillNode: true
   },
-  devOptions: {
-    /* ... */
-  },
-  buildOptions: {
-    /* ... */
-  },
+  alias: {
+    components: './src/components',
+    pages: './src/pages'
+  }
 };
