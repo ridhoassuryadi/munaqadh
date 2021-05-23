@@ -21,6 +21,7 @@
     "tailwindcss": "^2.1.2"
   },
   "dependencies": {
-    "svelte": "^3.38.2"
+    "svelte": "^3.38.2",
+    "wired-elements": "3.0.0-rc.6"
   }
 }
