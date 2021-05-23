@@ -1,5 +1,5 @@
 <script>
-   import "wired-elements";
+   import Paper from './components/Paper.svelte'
 </script>
 
 <style type="text/scss">
@@ -10,11 +10,6 @@ h1 {
 }
 </style>
 
-<div id="App">
-<wired-card elevation="5">
-  <h1>
-    wired-elements demoC
-  </h1>
-</wired-card>
-    <h1>You did it!</h1>
-</div>
+<main id="App">
+    <Paper />
+</main>
