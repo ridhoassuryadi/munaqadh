@@ -1,0 +1,15 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#489AF0",
+	"name": "Munaqadh",
+	"short_name": "Munaqadh",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "logo-256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	]
+}
