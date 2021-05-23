@@ -10,6 +10,6 @@ h1 {
 }
 </style>
 
-<main id="App">
+<main id="App" class="md:py-16">
     <Paper />
 </main>

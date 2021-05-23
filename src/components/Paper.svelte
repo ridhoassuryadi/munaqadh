@@ -1,10 +1,11 @@
 <style type="text/scss">
 
 #notebook-paper {
-  width:960px;
+  width: 100%;
+  max-width:960px;
   height:1109px;
   background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
-  margin:50px auto;
+  margin:0 auto;
   background-size: 100% 30px;
   position:relative;
   padding-top:150px;
