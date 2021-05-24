@@ -1,12 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html {
     @apply bg-gray-100;
     @apply text-gray-800;
   }
   
   body {
+    background-color: #F1F1F1;
     @apply h-full;
     @apply antialiased;
     @apply text-gray-800;
+    margin: 0px;
   }
   
   a {
