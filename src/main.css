@@ -49,6 +49,7 @@ html {
   h5,
   h6,
   a,
+  wired-button,
   p {
     font-family: 'Handlee', cursive;
     @apply text-lg
@@ -60,5 +61,14 @@ html {
   
   .whitespace-breakspaces {
     white-space: break-spaces;
+  }
+
+  wired-button {
+    background-color: #D0E6FD;
+    font-weight: 700;
+  }
+
+  wired-button  button {
+    text-transform: none;
   }
 
