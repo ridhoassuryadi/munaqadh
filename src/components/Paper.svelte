@@ -1,6 +1,7 @@
 <script>
 import ContactUs from './ContactUs.svelte'
 import Footer from './Footer.svelte'
+import Campaign from './Campaign.svelte'
 </script>
 <style type="text/scss">
 
@@ -41,7 +42,7 @@ import Footer from './Footer.svelte'
     top:0;
     left:0;
     h1 {
-      @apply text-3xl;
+      @apply text-4xl font-semibold;
       padding:7.2rem 2rem 0 2.75rem;
     }
   }
@@ -69,7 +70,7 @@ import Footer from './Footer.svelte'
          header {
             height:11rem;
              h1 {
-                 @apply text-4xl;
+                 @apply text-5xl;
                  padding:9rem 2rem 0 10.75rem;
              }
          }
@@ -97,6 +98,7 @@ import Footer from './Footer.svelte'
       shabby chic viral Wes Anderson 3 wolf moon Tonx ugh sustainable photo booth master cleanse meggings. 
        Shoreditch before they sold out direct trade  hoodie, 
        leggings Portland artisan art party.</p>
+       <Campaign />
        <p>VHS jean shorts Neutra gastropub cornhole, mumblecore Wes Anderson typewriter Godard bitters 3 wolf moon Odd Future tofu tousled plaid.  Tonx Etsy tofu, distillery retro blog Blue Bottle ugh kale chips flexitarian Odd Future sartorial Banksy bitters.  Messenger bag XOXO sustainable viral semiotics Williamsburg, whatever gastropub hashtag master cleanse.  Fap Williamsburg Blue Bottle, yr flannel biodiesel XOXO YOLO freegan pour-over farm-to-table leggings.  Ethical Thundercats umami gluten-free fingerstache.  DIY Etsy disrupt PBR.  Shabby chic sriracha synth Pinterest Marfa aesthetic dreamcatcher salvia,
         trust fund cliche Brooklyn.</p>
 
