@@ -9,6 +9,6 @@
 
 
 <div class="flex flex-col justify-center items-center">
-  <img src="images/illus__want_to_talk.png" alt="illustration want to talk" />
+  <img src="images/illus__want_to_talk.png" alt="illustration want to talk"  width="240"/>
   <Button on:click={handleClick}>Lets Talk!</Button>
 </div>

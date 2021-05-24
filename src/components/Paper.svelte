@@ -49,6 +49,10 @@ import ContactUs from './ContactUs.svelte'
     p {
       margin:0 0 30px 0;
     }
+
+    img {
+        margin: 0 auto;
+    }
   }
 }
 
@@ -85,9 +89,9 @@ import ContactUs from './ContactUs.svelte'
     <div class="hipsum">
     <p>Intelligentsia lo-fi pug Austin.  Shabby chic asymmetrical jean shorts, 
     twee stumptown bespoke art party keffiyeh High Life PBR 90's mumblecore.  Meggings Echo Park narwhal you probably haven't heard of them,
-    viral locavore Pinterest keytar.  Master cleanse Neutra Marfa cornhole roof party, seitan ennui Kickstarter fingerstache.  Ethical tofu retro, 
-    paleo pork belly hashtag deep v flexitarian meh High Life Godard occupy lo-fi.  Hella pour-over Williamsburg post-ironic narwhal Kickstarter, 
-    tofu single-origin coffee vinyl irony cray jean shorts.  Cray banjo Thundercats, asymmetrical pickled paleo butcher cliche disrupt Odd Future photo booth.</p><p>Forage selfies Shoreditch farm-to-table swag.
+    viral locavore Pinterest keytar.  Master cleanse Neutra Marfa cornhole roof party, seitan ennui Kickstarter fingerstache.</p>
+    <img src="images/photo__hello.png" alt="hello from us!" width="503"/>
+    <p>Forage selfies Shoreditch farm-to-table swag.
       YOLO Vice organic, Brooklyn meggings banh mi art party.  Occupy flexitarian freegan mustache shabby chic hoodie normcore.  Vinyl chia gastropub, asymmetrical fingerstache sartorial ennui aesthetic hella farm-to-table Blue Bottle.  Raw denim cliche semiotics, letterpress bicycle rights cornhole art party YOLO yr Shoreditch leggings brunch fap crucifix.  Gentrify mustache leggings ethnic roof party, 
       shabby chic viral Wes Anderson 3 wolf moon Tonx ugh sustainable photo booth master cleanse meggings. 
        Shoreditch before they sold out direct trade  hoodie, 
