@@ -4,9 +4,9 @@
   width: 100%;
   max-width:980px;
   height:1109px;
-  background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
+  background: linear-gradient(to bottom,white 31px,#00b0d7 1px);
   margin:0 auto;
-  background-size: 100% 30px;
+  background-size: 100% 32px;
   position:relative;
   padding-top:150px;
   padding-left:44px;
@@ -37,15 +37,12 @@
     top:0;
     left:0;
     h1 {
-      font-size:60px;
-      line-height:60px;
-      padding:127px 20px 0 160px;
+      @apply text-3xl;
+      padding:7.2rem 2rem 0 2.75rem;
     }
   }
   #content {
-    margin-top:67px;
-    font-size:20px;
-    line-height:30px;
+    margin-top:1.25rem;
     p {
       margin:0 0 30px 0;
     }
@@ -59,6 +56,18 @@
 
          &:before {
            left: 140px;
+         }
+
+         header {
+            height:11rem;
+             h1 {
+                 @apply text-4xl;
+                 padding:9rem 2rem 0 10.75rem;
+             }
+         }
+
+         #content {
+             margin-top: 3.125rem;
          }
     }
 }

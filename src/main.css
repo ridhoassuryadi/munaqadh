@@ -38,7 +38,27 @@ html {
     @apply font-bold;
     @apply mb-2;
   }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Alegreya', serif;
+  }
+
+  h5,
+  h6,
+  a,
+  p {
+    font-family: 'Handlee', cursive;
+    @apply text-lg
+  }
+
+  a,p {
+    line-height: 1.98rem;
+  }
   
   .whitespace-breakspaces {
     white-space: break-spaces;
   }
+
