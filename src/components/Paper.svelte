@@ -1,12 +1,13 @@
 <script>
 import ContactUs from './ContactUs.svelte'
+import Footer from './Footer.svelte'
 </script>
 <style type="text/scss">
 
 #notebook-paper {
   width: 100%;
   max-width:980px;
-  height:3009px;
+  height:2309px;
   background: linear-gradient(to bottom,white 31px,#00b0d7 1px);
   margin:0 auto;
   background-size: 100% 32px;
@@ -103,5 +104,6 @@ import ContactUs from './ContactUs.svelte'
         <ContactUs />
     </div>
   </div>
+  <Footer />
 </div>
 
