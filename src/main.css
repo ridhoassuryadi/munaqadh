@@ -8,6 +8,7 @@ html {
   }
   
   body {
+    background-color: #F1F1F1;
     @apply h-full;
     @apply antialiased;
     @apply text-gray-800;

@@ -2,15 +2,15 @@
 
 #notebook-paper {
   width: 100%;
-  max-width:960px;
+  max-width:980px;
   height:1109px;
   background: linear-gradient(to bottom,white 29px,#00b0d7 1px);
   margin:0 auto;
   background-size: 100% 30px;
   position:relative;
   padding-top:150px;
-  padding-left:160px;
-  padding-right:20px;
+  padding-left:44px;
+  padding-right:12px;
   overflow:hidden;
   border-radius:5px;
   -webkit-box-shadow:3px 3px 3px rgba(0,0,0,.2),0px 0px 6px rgba(0,0,0,.2);
@@ -24,7 +24,7 @@
     position:absolute;
     z-index:1;
     top:0;
-    left:140px;
+    left:32px;
     height:100%;
     width:1px;
     background:#db4034;
@@ -50,6 +50,17 @@
       margin:0 0 30px 0;
     }
   }
+}
+
+@media (min-width: 768px) {
+    #notebook-paper {
+        padding-left:172px;
+        padding-right:32px;
+
+         &:before {
+           left: 140px;
+         }
+    }
 }
 </style>
 
