@@ -25,19 +25,15 @@
 }
 
 .tape {
-  background-color: hsla(0, 0%, 100%, 0.3);
-  box-shadow: inset 0 0 1em 0.5em hsla(0, 0%, 100%, 0.1);
-  height: 3em;
+  background-color: #dbd8be;
   position: absolute;
-  top: -22px;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  min-width: 100px;
-  transform: rotate(1deg);
-  max-width: 180px;
-  -webkit-filter: drop-shadow(0 1px 0.7px hsla(0, 0%, 0%, 0.3));
+    height: 4vmin;
+    top: -2rem;
+    width: 80%;
+    background-color: #dbd8be;
+    border-right: 1px dotted #b7b49d;
+    border-left: 1px dotted #b7b49d;
+    opacity: 0.5;
 }
 .tape:after,
 .tape:before {
