@@ -1,7 +1,5 @@
 <script>
    import Paper from './components/Paper.svelte'
-
-   console.log(document.querySelector('wired-button'))
 </script>
 
 <style type="text/scss">

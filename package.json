@@ -26,6 +26,7 @@
     "tailwindcss": "^2.1.2"
   },
   "dependencies": {
+    "smooth-scrollbar": "^8.6.2",
     "svelte": "^3.38.2",
     "wired-elements": "3.0.0-rc.6"
   }
